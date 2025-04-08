@@ -50,7 +50,3 @@ function createToken(
     string memory symbol,
     uint256 totalSupply
 ) external returns (address token);
-=======
-# ERC20hub
-Create standard ERC20 tokens in seconds.
->>>>>>> 0a29decb8e9feb22fcdb6573405bdc751b911681
