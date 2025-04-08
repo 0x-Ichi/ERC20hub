@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🏗️ ERC20 Hub – Create Your Own Token in One Call
 
 **ERC20 Hub** is an on-chain ERC20 factory contract that enables anyone to create their own standard ERC20 tokens with a single function call.
@@ -50,3 +51,7 @@ function createToken(
     string memory symbol,
     uint256 totalSupply
 ) external returns (address token);
+=======
+# ERC20hub
+Create standard ERC20 tokens in seconds.
+>>>>>>> 0a29decb8e9feb22fcdb6573405bdc751b911681
