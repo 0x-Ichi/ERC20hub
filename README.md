@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# 🏗️ ERC20 Hub – Create Your Own Token in One Call
+# ERC20 Hub – Create Your Own Token in One Call
 
 **ERC20 Hub** is an on-chain ERC20 factory contract that enables anyone to create their own standard ERC20 tokens with a single function call.
 
@@ -7,7 +6,7 @@ Whether you're launching a DAO, building a Web3 project, or experimenting with t
 
 ---
 
-## 📍 Deployed Contract
+## Deployed Contract
 
 This contract is already deployed on **Base Sepolia** testnet:
 
@@ -19,7 +18,7 @@ You can directly call the `createToken` function on this contract to deploy your
 
 ---
 
-## 🎯 Motivation
+## Motivation
 
 To address the growing demand for ERC20 token creation, and to avoid the redundancy of having countless copies of identical ERC20 code deployed on-chain, this project separates and standardizes the ERC20 logic into a reusable and centralized factory contract.
 
@@ -27,23 +26,23 @@ By doing so, developers and users can efficiently launch their own tokens withou
 
 ---
 
-## 🚀 Features
+## Features
 
-- ✅ One-call token creation
-- 🧬 ERC20 logic is shared and efficient via EIP-1167 proxy clones
-- 🔒 Uses OpenZeppelin’s `Clones` for lightweight deployments
-- 🔢 Fixed 18 decimal precision for all tokens
-- 🌍 Fully on-chain and permissionless — no off-chain services required
+- One-call token creation
+- ERC20 logic is shared and efficient via EIP-1167 proxy clones
+- Uses OpenZeppelin’s `Clones` for lightweight deployments
+- Fixed 18 decimal precision for all tokens
+- Fully on-chain and permissionless — no off-chain services required
 
 ---
 
-## 🧪 How to Use
+## How to Use
 
 The `createToken` function allows any wallet to deploy a new ERC20 token by specifying the name, symbol, and total supply.
 
 ---
 
-### 🔧 Function
+### Function
 
 ```solidity
 function createToken(
